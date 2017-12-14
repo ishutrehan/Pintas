@@ -122,7 +122,7 @@ $(document).ready(function() {
             // clear
             $(lst).find('#category').val('')
             $(lst).find('#cycle').val('')
-            $(lst).find('#service').val('')
+            $(lst).find('#service').html('<option value="">None</option>')
             $(lst).find('#servicesub').val('')
             $(lst).find('#country').val('')
         }
